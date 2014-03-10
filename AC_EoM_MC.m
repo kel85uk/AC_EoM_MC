@@ -3,7 +3,7 @@ clear all; clc; close all;
 
 matlabpool(4);
 
-Nsamples = 2500; %Number of MC trials
+Nsamples = 4000; %Number of MC trials
 Nsigma = 2; %Sigma confidence levels
 Clmax = 1.8; %Max lift coefficient
 C_tsfc = 0.00001565; %TSFC
